@@ -1,0 +1,101 @@
+% !TEX program = xelatex
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{linespacing_fix}
+\renewcommand{\labelitemii}{$\circ$}
+ 
+\begin{document}
+
+\name{吴家焱}
+\basicInfo{
+  % \phone{} \textperiodcentered\
+  \email{roifewu AT gmail DOT com} \textperiodcentered\
+  \github[roife]{https://github.com/roife} \textperiodcentered\
+  \homepage[roife.github.io]{https://roife.github.io}
+}
+
+\section{教育背景}
+\datedsubsection{\textbf{北京航空航天大学}}{2019.09 -- 现在}
+\role{本科，在读}{计算机科学与技术专业; GPA 3.83/4.00; 排名 19/205}
+
+\section{科研经历}
+\datedsubsection{\textbf{北京航空航天大学}}{2021.08 -- 2022.06}
+\begin{itemize}
+  \item 面向 GPU 统一虚拟内存的数据管理优化技术：通过识别应用的数据管理瓶颈，实现异构内存下数据的优化放置
+  \item LLVM-IR 到 ARMv7 的轻量编译器，包括 C++ 实现的优化器和 LLVM 后端裁剪两部分
+\end{itemize}
+
+\section{项目开发}
+\subsection{\textbf{底层系统}}
+\begin{itemize}
+  \item \textbf{Ayame 编译器} (Java, ARM)：SysY 编译器，可导出 LLVM-IR/ARM32 汇编，毕昇杯第二名（合作）
+
+  \item \textbf{Racoon 编译器} (Rust, LLVM-IR)：
+        SysY 到 LLVM IR 编译器；北航软院 19 级编译课设 Rust 版参考实现
+
+  \item \textbf{MIPS 处理器} (Verilog, MIPS)：
+        五级流水线 CPU，包含协处理器 CP0 子集的实现，支持多种中断异常
+
+  \item \textbf{MOS 操作系统} (C, MIPS)：
+        操作系统内核，包含了一个较完善的 Shell
+\end{itemize}
+
+\subsection{\textbf{应用开发}}
+\begin{itemize}
+  \item \textbf{航概} (SwiftUI, Vue, Rails)：
+        《航空航天概论》刷题应用，支持 Web 与 iOS；应用「航概」已上架 AppStore（合作）
+
+  \item \textbf{求职岛} (微信小程序, Vue, Django)：
+        校内实验室招聘平台，支持微信小程序与 Web 端（合作）
+\end{itemize}
+
+\section{获奖情况}
+\subsection{\textbf{竞赛}}
+\begin{itemize}
+  \item \datedline{蓝桥杯软件类省赛（\textit{一等奖}）/蓝桥杯软件类国赛（\textit{三等奖}）}{2021.06}
+  \item \datedline{全国大学生计算机系统能力大赛编译系统设计赛·华为毕昇杯（\textit{一等奖，第二名}）}{2021.08}
+  \item \datedline{第 24 届CCF-CSP 软件能力认证（\textit{单次排名 1.51\%，累计排名 0.99\%}）}{2021.09}
+  \item \datedline{第三十二届“冯如杯”竞赛主赛道制作组（三等奖）}{2022.06}
+\end{itemize}
+
+\subsection{\textbf{奖学金}}
+\begin{itemize}
+  \item \datedline{北航本科生学习优秀奖学金（两次\textit{二等奖}）}{2020.11，2021.11}
+  \item \datedline{北航本科生学科竞赛奖学金（\textit{特等奖}）}{2021.11}
+\end{itemize}
+
+\section{专业技能}
+\begin{itemize}
+  \item \textbf{编程语言}：C, C++, Java, Rust, Swift, Python, JavaScript, Ruby, Verilog, Coq
+
+  \item \textbf{编译/程序语言理论}：
+    \begin{itemize}
+      \item 熟悉 ANTLR 等解析器生成器，了解 SSA 和相关优化算法，了解过 LLVM
+      \item 了解函数式语言和类型系统，理解基于 Dependent Type 的形式化验证技术并学习过 Coq
+    \end{itemize}
+
+  \item \textbf{应用开发}：
+    \begin{itemize}
+      \item 技术栈：Web 前端 (Vue)，Web 后端 (Rails, Django)，iOS (SwiftUI)
+      \item 掌握 Docker, CI, Redis, PostgreSQL 等工具的使用
+    \end{itemize}
+
+  \item \textbf{开发环境}：常在 Linux 下使用 Emacs 与 JetBrains IDE；熟悉 Git 与 Gitflow 协作流程
+\end{itemize}
+ 
+\section{其他}
+\begin{itemize}
+  \item \textbf{助教工作}：
+        \begin{itemize}
+          \item \datedline{\textbf{程序设计基础训练}（北航信息类专业）}{2020.09 -- 2021.02}
+                \role{课程助教}{负责出题和答疑}
+          \item \datedline{\textbf{面向对象设计与构造}（北航计算机学院 S.T.A.R 教辅团队）}{2021.08 -- 2022.06}
+                \role{课程助教 \& 系统组}{参与课程系统（Rails \& GitLab）的开发与日常运维，课程出题、答疑、跟班等}
+        \end{itemize}
+  \item \textbf{社会实践}：志愿服务总时长超 200 小时；担任北航微软俱乐部的技术部副部长
+  \item \textbf{博客}：已在 \url{https://roife.github.io} 创作约 170 篇文章，月访问量最高逾 1.5k
+  \item \textbf{外语}：英语（CET-6）
+\end{itemize}
+\end{document}

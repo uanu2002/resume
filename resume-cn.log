@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.23)  24 AUG 2022 02:02
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.23)  28 SEP 2022 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,27 +580,40 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 9.
+
+Package fontspec Info: Font family 'AdobeHeitiStd-Regular.otf(0)' created for
+(fontspec)             font 'AdobeHeitiStd-Regular.otf' with options [Path =
+(fontspec)             fonts/zh_CN-Adobe/,Mapping=tex-text,Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/zh_CN-Adobe/AdobeHeitiStd-Regular.otf]/OT:scr
+ipt=hani;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
 LaTeX Font Info:    Font shape `TU/FontAwesome(0)/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 19.
+(Font)              scaled to size 10.20007pt on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 58.
+(Font)              <7> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 58.
+(Font)              <5> on input line 61.
 
 AED: lastpage setting LastPage
 [1
 
 ] (./resume-cn.aux)
 Package rerunfilecheck Info: File `resume-cn.out' has not changed.
-(rerunfilecheck)             Checksum: 698EE656666B43F1CFCBC253A0F44443;847.
+(rerunfilecheck)             Checksum: 86F73488ED1A3789909DF2F5EEED03B9;1011.
  ) 
 Here is how much of TeX's memory you used:
- 14860 strings out of 478126
- 310542 string characters out of 5853227
- 678112 words of memory out of 5000000
- 35305 multiletter control sequences out of 15000+600000
- 470385 words of font info for 57 fonts, out of 8000000 for 9000
+ 14863 strings out of 478126
+ 310125 string characters out of 5853227
+ 668302 words of memory out of 5000000
+ 35302 multiletter control sequences out of 15000+600000
+ 470417 words of font info for 61 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 103i,5n,105p,369b,386s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,5n,105p,369b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on resume-cn.pdf (1 page).
