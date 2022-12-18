@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.23)  16 DEC 2022 19:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.23)  21 NOV 2022 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume-cn.tex
-(./resume-cn.tex
+**学长版.tex
+(./学长版.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (./resume.cls
 Document Class: resume 2015/05/25 An elegant Résumé class
@@ -436,8 +436,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 LaTeX Warning: Unused global option(s):
     [9pt].
 
-(./resume-cn.aux)
-\openout1 = `resume-cn.aux'.
+No file 学长版.aux.
+\openout1 = `学长版.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -450,7 +450,7 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
 .
- (e:/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+(e:/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 9.
@@ -480,10 +480,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
 LaTeX Info: Redefining \nameref on input line 9.
-
-(./resume-cn.out) (./resume-cn.out)
 \@outlinefile=\write3
-\openout3 = `resume-cn.out'.
+\openout3 = `学长版.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -542,7 +544,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 9.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -596,24 +597,33 @@ ipt=hani;language=dflt;mapping=tex-text;"
 LaTeX Font Info:    Font shape `TU/FontAwesome(0)/m/n' will be
 (Font)              scaled to size 10.20007pt on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 64.
+(Font)              <7> on input line 75.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 64.
+(Font)              <5> on input line 75.
 
 AED: lastpage setting LastPage
 [1
 
-] (./resume-cn.aux)
-Package rerunfilecheck Info: File `resume-cn.out' has not changed.
-(rerunfilecheck)             Checksum: 86F73488ED1A3789909DF2F5EEED03B9;1011.
+] (./学长版.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `学长版.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `学长版.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  BABCE5092A50891719DA86B41DA78249;1011.
  ) 
 Here is how much of TeX's memory you used:
- 14885 strings out of 478126
- 311826 string characters out of 5853227
- 676302 words of memory out of 5000000
- 35324 multiletter control sequences out of 15000+600000
+ 14949 strings out of 478126
+ 317386 string characters out of 5853227
+ 694805 words of memory out of 5000000
+ 35394 multiletter control sequences out of 15000+600000
  470417 words of font info for 61 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 103i,5n,105p,369b,367s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,5n,105p,363b,345s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume-cn.pdf (1 page).
+Output written on 学长版.pdf (1 page).
